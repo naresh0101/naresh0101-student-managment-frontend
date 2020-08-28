@@ -19,6 +19,7 @@ function App() {
       <Switch>
         <Route  path="/login" component={Login} />
         <PrivateRoute authenticated={authenticated} path="/dashboard" component={Dashboard} />
+        <PrivateRoute authenticated={authenticated} path="/" component={Dashboard} />
         <Route  component={PageNotFound} />
       </Switch>
     </AppLayout>
