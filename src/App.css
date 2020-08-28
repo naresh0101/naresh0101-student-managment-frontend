@@ -1,0 +1,76 @@
+.usertype{
+    font-size: 14px ;
+}
+a{
+    text-decoration: none !important;
+}
+.custom-shadow{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    padding: 0px;
+}
+.student-card img{
+    width: 100%;
+}
+.Avatar-student{
+    margin-top: -40px !important;
+    height: 100px !important;
+    width: 100px !important;
+}
+.student-details{
+    background-color: rgba(236, 229, 229, 0.589);
+}
+.demoUi{
+    width: 100%;
+}
+.MuiButtonBase-root:hover{
+    background-color: #8080803d !important;
+}
+.MuiDrawer-paper{
+    background: #18202c !important;
+}
+.clrwhite{
+    color: rgba(255, 255, 255, 0.932) !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+.clrgry{
+    color: #949aa0 !important;
+  }
+  
+  .stylegoogle{
+    background-color: none !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
+  }
+  p{
+    font-weight: 500 !important;
+  }
+  .btnsocial { 
+  width: 50px;
+  border-radius: 25px !important;
+  /* border:0px transparent !important; */
+  text-align: center !important;
+  padding: 5px !important;
+  background:transparent !important;
+  background-color: none !important;
+  }
+  .btnsocial > div{
+  border-radius: 25px !important;
+  background:transparent !important;
+  
+  }
+  @media only screen and (max-width: 600px) {
+  .account-img {
+    display: none;
+  }
+  }
+  .MuiButton-containedPrimary {
+    color: white !important;
+    background-color: #4bb0ff !important;
+  }
+  button{
+    outline: none !important;
+  }
+  
