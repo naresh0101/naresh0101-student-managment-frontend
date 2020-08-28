@@ -26,13 +26,13 @@ class Mystudents extends Component {
   }
   render() { 
     return ( 
-      <main className="p-3" style={{marginTop:"100px"}}>
+      <main  style={{marginTop:"100px"}}>
           <div className="row p-3">
               {
                 this.state.students?.map((student,index)=>{
                   return(
-                    <div className="col-md-5 custom-shadow m-2" key={index}>
-                      <CardHeader
+                    <div className="custom-shadow m-2" key={index}>
+                     <CardHeader
                         avatar={
                           <Avatar aria-label="recipe" >
                            {student._id.name[0]}
